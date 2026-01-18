@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Tabla comparativa: etiquetas obsoletas vs modernas</title>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="css/estilos.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">HTML</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="LineadetiempoHTML.html">Línea de tiempo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="Tablacomparativa.html">Tabla comparativa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="VentajasdelHTML5.html">Ventajas HTML5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Formulariodevisita.html">Formulario</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<header class="bg-primary text-white text-center p-4">
+    <h1 class="titulo-principal">
+        EVOLUCIÓN DEL HTML: de HTML 1.0 a HTML5
+    </h1>
+</header>
+
+<div class="container my-4">
+    <h2 class="mb-4">Tabla comparativa: Etiquetas obsoletas vs modernas</h2>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped align-middle text-center">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>Etiqueta obsoleta</th>
+                    <th>Razón</th>
+                    <th>Etiqueta moderna</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>&lt;font&gt;</td>
+                    <td>Mezcla contenido y estilo</td>
+                    <td>CSS (font-size, color)</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;center&gt;</td>
+                    <td>No es semántica</td>
+                    <td>CSS (text-align)</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;big&gt; / &lt;small&gt;</td>
+                    <td>Estilo, no estructura</td>
+                    <td>CSS (font-size)</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;u&gt;</td>
+                    <td>Se confundía con enlaces</td>
+                    <td>CSS (text-decoration)</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;applet&gt;</td>
+                    <td>Insegura y obsoleta</td>
+                    <td>&lt;object&gt; o JavaScript</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;frame&gt; / &lt;frameset&gt;</td>
+                    <td>Mala accesibilidad</td>
+                    <td>&lt;iframe&gt;</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;dir&gt;</td>
+                    <td>Lista anticuada</td>
+                    <td>&lt;ul&gt;</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;acronym&gt;</td>
+                    <td>Unificada con &lt;abbr&gt;</td>
+                    <td>&lt;abbr&gt;</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;strike&gt;</td>
+                    <td>No semántica</td>
+                    <td>&lt;del&gt; o CSS</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center p-3">
+    © Cindy Arboleda 2026
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
